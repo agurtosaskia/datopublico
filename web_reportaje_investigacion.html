@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dato Público – Reportajes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f2f2f2;
+            color: #222;
+        }
+        header {
+            background: #cc0000;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+        }
+        nav {
+            background: #b30000;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .foto {
+            width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .creditos {
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            margin-top: 40px;
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dato Público</h1>
+        <p>Grupo de Periodismo de Investigación</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#reportaje-escrito">Reportaje Escrito</a>
+        <a href="#podcast">Podcast</a>
+        <a href="#video">Video Reportaje</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="container" id="inicio">
+        <h2>Bienvenidos</h2>
+        <p>Bienvenidos a <strong>Dato Público</strong>, una plataforma creada por nuestro grupo de Periodismo de Investigación para publicar nuestros reportajes en formato escrito, podcast y video.</p>
+    </section>
+
+    <section class="container" id="reportaje-escrito">
+        <h2>Reportaje Escrito</h2>
+        <img src="" alt="Foto principal del reportaje" class="foto" />
+        <p class="creditos">Crédito fotográfico: Nombre / Medio</p>
+        <p>Aquí va el texto completo del reportaje escrito.</p>
+    </section>
+
+    <section class="container" id="podcast">
+        <h2>Podcast</h2>
+        <p>Aquí puedes insertar el audio en formato podcast (MP3 o enlace a Spotify/Drive).</p>
+        <audio controls>
+            <source src="audio/podcast.mp3" type="audio/mp3">
+        </audio>
+    </section>
+
+    <section class="container" id="video">
+        <h2>Video Reportaje</h2>
+        <p>Inserta aquí tu video (enlace de YouTube o archivo MP4).</p>
+        <video controls width="100%">
+            <source src="video/reportaje.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section class="container" id="equipo">
+        <h2>Equipo de Investigación</h2>
+        <ul>
+            <li>Saskia Agurto – Investigadora / Redacción</li>
+            <li>Ernesto Zamora – Investigación / Producción</li>
+            <li>Eymi – Entrevistas / Apoyo documental</li>
+            <li>Angie Díaz – Dirección / Edición</li>
+        </ul>
+    </section>
+
+    <section class="container" id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas comunicarte con nuestro equipo, puedes escribirnos a:</p>
+        <p><strong>correo@ejemplo.com</strong></p>
+    </section>
+
+    <footer>
+        © 2025 Grupo de Periodismo de Investigación
+    </footer>
+</body>
+</html>
